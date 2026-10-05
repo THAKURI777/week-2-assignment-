@@ -1,144 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
 
-    <body>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-        <header>
-            <h1>Sameer Thakuri - Personal Portfolio</h1>
+    <title>Sameer Thakuri - Personal Portfolio</title>
 
-            <nav>
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-        <main>
+<body>
 
-            <section id="about">
-                <h2>About Me</h2>
+   
+    <header>
 
-                <img src="1.1.jpeg"
-                    alt="Profile photograph of Sameer Thakuri" 
-                    width="200">
+        <h1>Sameer Thakuri</h1>
 
-                <p>
-                    Hello! My name is Sameer Thakuri. I am a student interested
-                    in information technology and web development. I enjoy
-                    learning how websites are created and developing my
-                    technical skills through academic and personal projects.
-                </p>
+        <p>Personal Portfolio</p>
 
-                <p>
-                    My goal is to continue improving my knowledge of web
-                    technologies and use these skills to create useful,
-                    accessible, and well-structured websites.
-                </p>
-            </section>
+        <!-- Navigation -->
 
-            <section id="skills">
-                <h2>Technical Skills</h2>
+        <nav>
 
-                <dl>
-                    <dt>HTML5</dt>
-                    <dd>Creating structured and semantic web pages.</dd>
+            <ul>
 
-                    <dt>CSS</dt>
-                    <dd>Understanding basic website presentation and
-                        design.</dd>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
 
-                    <dt>JavaScript</dt>
-                    <dd>Understanding basic interactive website
-                        functionality.</dd>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
 
-                    <dt>GitHub</dt>
-                    <dd>Creating and managing public code repositories.</dd>
-                </dl>
-            </section>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
 
-            <section id="projects">
-                <h2>Projects</h2>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
-                <article>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <div class="about-content">
+
+                <img src="./1.1.jpeg"
+                    alt="Profile photograph of Sameer Thakuri">
+
+                <div class="about-text">
+
+                    <p>
+                        Hello! My name is Sameer Thakuri. I am a student
+                        interested in information technology and web
+                        development.
+                    </p>
+
+                    <p>
+                        I enjoy learning how websites are created and
+                        developing my technical skills through academic
+                        and personal projects.
+                    </p>
+
+                    <p>
+                        My goal is to continue learning web technologies
+                        and use my skills to create useful and
+                        well-structured websites.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        I use HTML5 to create the structure and content
+                        of my web pages.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        I use CSS to add colors, spacing, fonts, and
+                        layouts to my websites.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        I have basic knowledge of JavaScript and use it
+                        to understand website interaction.
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        I use GitHub to store my projects and share
+                        my code online.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <article class="project">
+
                     <h3>Personal Portfolio Website</h3>
 
                     <p>
-                        This project is a personal portfolio created using
-                        semantic HTML5. It includes information about me,
-                        technical skills, projects, and a contact form.
+                        This is my personal portfolio website. It was
+                        created using HTML5 and CSS to present my
+                        information, skills, and projects.
                     </p>
 
-                    <p>
-                        <a
-                            href="https://github.com/THAKURI777/part3">
-                            View Personal Portfolio Repository
-                        </a>
-                    </p>
+                    <a href="https://github.com/THAKURI777/part3"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Portfolio Repository
+
+                    </a>
+
                 </article>
 
-                <article>
+
+                <article class="project">
+
                     <h3>E-Commerce Website</h3>
 
                     <p>
-                        This project is a basic e-commerce website created to
-                        demonstrate product organization, navigation, images,
-                        and links using HTML.
+                        This is a basic e-commerce website created to
+                        practice HTML, images, links, and the organization
+                        of website content.
                     </p>
 
-                    <p>
-                        <a
-                            href="https://github.com/THAKURI777/part1">
-                            View E-Commerce Repository
-                        </a>
-                    </p>
+                    <a href="https://github.com/THAKURI777/part1"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View E-Commerce Repository
+
+                    </a>
+
                 </article>
-            </section>
 
-            <section id="contact">
-                <h2>Contact Me</h2>
+            </div>
 
-                <form action="#" method="post">
+        </section>
 
-                    <p>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </p>
 
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </p>
+        <section id="contact">
 
-                    <p>
-                        <label for="message">Message:</label>
-                        <textarea id="message"
-                            name="message"
-                            rows="6"
-                            cols="40"
-                            required></textarea>
-                    </p>
+            <h2>Contact Me</h2>
 
-                    <p>
-                        <button type="submit">Submit</button>
-                    </p>
+            <form action="#" method="post">
 
-                </form>
-            </section>
+                <label for="name">
+                    Name:
+                </label>
 
-        </main>
+                <input type="text"
+                    id="name"
+                    name="name"
+                    required>
 
-        <footer>
-            <p> 2026 Sameer Thakuri. </p>
-        </footer>
 
-    </body>
+                <label for="email">
+                    Email:
+                </label>
+
+                <input type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+
+                <label for="message">
+                    Message:
+                </label>
+
+                <textarea id="message"
+                    name="message"
+                    rows="5"
+                    required></textarea>
+
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Sameer Thakuri. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
 
 </html>
